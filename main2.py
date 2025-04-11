@@ -8,7 +8,7 @@ import datetime
 
 # Initialize Gemini API
 import google.generativeai as genai
-genai.configure(api_key="AIzaSyCuEYR_kd4Dahj3eXAgPLkgQvcCon7NXDE")
+genai.configure(api_key="")
 model = genai.GenerativeModel("gemini-pro")
 
 # Initialize TTS and STT
