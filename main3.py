@@ -10,7 +10,7 @@ from playsound import playsound
 import google.generativeai as genai
 
 # Gemini setup
-genai.configure(api_key="AIzaSyCuEYR_kd4Dahj3eXAgPLkgQvcCon7NXDE")
+genai.configure(api_key="")
 model = genai.GenerativeModel("gemini-pro")
 recognizer = sr.Recognizer()
 
