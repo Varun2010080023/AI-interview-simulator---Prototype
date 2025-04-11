@@ -17,7 +17,7 @@ class InterviewSimulator:
         load_dotenv()
         
         # Configure Gemini API
-        api_key = os.getenv("api_key", "AIzaSyCuEYR_kd4Dahj3eXAgPLkgQvcCon7NXDE")
+        api_key = os.getenv("api_key", "")
         if not api_key:
             raise ValueError("GEMINI_API_KEY not found in environment variables")
         configure(api_key=api_key)
